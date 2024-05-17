@@ -33,9 +33,9 @@ gsap.registerPlugin(ScrollTrigger);
   timeline.to(".content__img", {
     scale: 0.4,
     ease: 'sine',
-    rotationX: -35,
-    rotationY: 35,
-    filter: 'brightness(200%) contrast(200%)',
+    rotationX: -50,
+    rotationY: 45,
+    filter: 'brightness(110%) contrast(110%)',
     clipPath: clipPaths.step1.final
   }, 0)
 
@@ -50,7 +50,7 @@ gsap.registerPlugin(ScrollTrigger);
 const nestedTimeline = gsap.timeline();
 
 nestedTimeline.to(".content__img", {
-	startAt: { clipPath: clipPaths.step2.initial, filter: 'brightness(200%) contrast(200%)' },
+	startAt: { clipPath: clipPaths.step2.initial, filter: 'brightness(110%) contrast(110%)' },
   clipPath: clipPaths.step2.final,
   rotationX: 0,
   rotationY: 0,
