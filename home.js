@@ -82,23 +82,6 @@ timeline.add(nestedTimeline);
       	}
      });
 
-     
-// Featued tile animate-in
-
-document.addEventListener("DOMContentLoaded", function() {
-
-    gsap.from(".featured-tile", {
-        opacity: 0,
-        duration: 2,
-        stagger: .2,
-        xPercent: 70,
-        ease: "power4.out",
-        scrollTrigger: {
-            trigger: ".l-section-track-h",
-            start: "top center"
-        },
-    });
-});
         
       
 // Function to execute additional action
