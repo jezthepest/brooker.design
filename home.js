@@ -44,6 +44,11 @@ gsap.registerPlugin(ScrollTrigger);
     skewY: 10,
     scaleY: 0.9,
   }, 0)
+
+     
+// Animate greeting
+
+ .from(".intro_greeting-text", { scale: 2 }, 0)
   
 
 // Nested timeline for step2 of the animation
